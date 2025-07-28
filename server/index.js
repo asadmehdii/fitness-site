@@ -35,7 +35,6 @@ async function initializeDatabase() {
   }
 }
 
-// Initialize database on startup
 initializeDatabase().catch(console.error);
 
 // AI Service - Using Claude API
