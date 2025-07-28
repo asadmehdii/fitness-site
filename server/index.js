@@ -39,7 +39,7 @@ async function initializeDatabase() {
 initializeDatabase().catch(console.error);
 
 // AI Service - Using Claude API
-const CLAUDE_API_KEY = process.env.OPENAI_API_KEY;
+const CLAUDE_API_KEY = process.env.CLAUDE_API_KEY;
 const CLAUDE_API_URL = process.env.CLAUDE_API_URL;
 
 const workoutPlanSchema = z.object({
